@@ -3,3 +3,4 @@ runs:
   using: "composite"
   steps:
     - run: echo ${{ env.TEST_DATA }}
+      shell: bash
